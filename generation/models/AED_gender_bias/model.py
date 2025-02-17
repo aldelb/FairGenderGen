@@ -41,7 +41,7 @@ class GenderClassifier(pl.LightningModule):
         gender_output = gender_output.view(gender_output.size(0), -1)
         gender_output = F.relu(self.classif_gender_fc1(gender_output))
         gender_output = self.classif_gender_fc2(gender_output)
-        gender_output = F.log_softmax(gender_output, dim=1)
+        #gender_output = F.log_softmax(gender_output, dim=1)
         return gender_output
     
 
