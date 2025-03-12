@@ -8,7 +8,7 @@ The code contains two models
 * The second, building upon the first, integrates a gender discriminator and a gradient reversal layer. It aims to mitigate these biases and create non-verbal behaviours independent of the speaker’s gender
 
 
-The github repository of the gender classifier is available [here](https://github.com/behavioursGeneration/gender-classifier?tab=readme-ov-file).
+The github repository of the gender classifier is available [here](https://github.com/aldelb/gender-classifier?tab=readme-ov-file).
   
 ## The architecture 
 ![Capture](https://github.com/behavioursGeneration/FairGenderGen/assets/110098017/da6d223d-f38e-44b9-9529-32eaacfdfbcf)
