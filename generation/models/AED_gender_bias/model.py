@@ -266,8 +266,7 @@ class GAN(pl.LightningModule):
             loss_au = self.criterion(gen_au, target_au).mean()
 
             # Calcul de la loss totale du générateur
-            g_loss = constants.eye_coeff * loss_eye + constants.pose_coeff * loss_pose_r + constants.au_coeff * loss_au 
-            + constants.adversarial_coeff * g_iteration_loss
+            g_loss = constants.eye_coeff * loss_eye + constants.pose_coeff * loss_pose_r + constants.au_coeff * loss_au + constants.adversarial_coeff * g_iteration_loss
 
             return latent_representation, g_loss, loss_eye, loss_pose_r, loss_au, fake_targets, torch.mean(d_fake_pred), torch.mean(d_real_pred)
     
