@@ -70,6 +70,19 @@ if(os.path.isfile(input_video) and os.path.isfile(input_audio)):
 
      final.write_videofile(output)
 ```
+### Citing
+If you use this code in your research please cite it:
+```
+@inproceedings{delbosc2024mitigation,
+  title={Mitigation of gender bias in automatic facial non-verbal behaviors generation},
+  author={Delbosc, Alice and Ochs, Magalie and Sabouret, Nicolas and Ravenet, Brian and Ayache, Stephane},
+  booktitle={Proceedings of the 26th International Conference on Multimodal Interaction},
+  pages={284--292},
+  year={2024}
+}
+```
 
+Contact
+alice.delbosc@lis-lab.fr
 
 
